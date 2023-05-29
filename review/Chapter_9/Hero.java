@@ -11,12 +11,17 @@ public class Hero {
         System.out.println("敵に" + this.sword.damage + "ポイント与えた!");
     }
 
-    public Hero(String name) {
-        this.hp = 100;
+    Hero(String name, int hp, Sword sword) {
+        this(name, hp);
+        this.sword = sword;
+    }
+
+    Hero(String name, int hp) {
         this.name = name;
+        this.hp = hp;
     }
-    public Hero() {
-        this("ダミー");
+
+    Hero(String name) {
+        this(name, 100);
     }
-    
 }
