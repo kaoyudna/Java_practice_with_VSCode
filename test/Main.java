@@ -4,5 +4,6 @@ public class Main {
         Matango m = new Matango('A');
         h.attack(m);
         m.run();
+        
     }
 }
