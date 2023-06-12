@@ -8,7 +8,7 @@ public class Hero extends Character {
         }
     }
     // コンストラクタ
-    public Hero(String name, int hp, int damage) {
+    public Hero(String name) {
         super(name, hp, damage);
     }
 }
