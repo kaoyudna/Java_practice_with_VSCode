@@ -6,5 +6,6 @@ public class Main {
         for (Y index: array) {
             index.b();
         }
+        
     }
 }
